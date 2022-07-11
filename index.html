@@ -1,0 +1,961 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>REAL ESTATE</title>
+  <link type="image/png" sizes="96x96" rel="icon" href="./assets/images/icons8-mansion-96.png">
+
+
+  <!--////////////////swiperjs CSS/////////////////// -->
+  <link rel="stylesheet" href="./css/swiper-bundle.min.css" />
+
+  <!--/////////////////BOXICONS/////////// -->
+  <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet" />
+  <!--////////////////CSS/////////////////// -->
+  <link rel="stylesheet" href="./css/style.css" />
+
+        <!--////////////////SCROLL REVEAL/////////////////// -->
+        <link rel="stylesheet" href="./css/scrollreveal.min.js"/>
+    
+        <!-- Scroll reveal -->
+<script src="./js/scrollreveal.js"></script>
+</head>
+
+<body>
+  <!--///*****HEADER******///// -->
+  <header class="header">
+    <nav class="nav container flex">
+      <i class='bx bx-menu  navOpen-btn' id="navOpen"></i>
+      <!-- logo -->
+      <a href="#" class="logo-content flex">
+        <img src="./assets/images/logo.png" alt="logo" class="logo-image">
+      </a>
+      <!-- nav menu -->
+      <div class="menu-content " id="menuContent">
+        <ul class="menu-list flex">
+          <li><a href="#home" class="nav-link active-navlink">home</a></li>
+          <li><a href="#about" class="nav-link">Residnce</a></li>
+          <li><a href="#menu" class="nav-link">About us</a></li>
+          <li><a href="#review" class="nav-link">Agents</a></li>
+          <li class="button-drk menu-btn"> Sign Up</li>
+        </ul>
+        <div class="media-icons flex">
+          <a href="#"><i class="bx bxl-facebook"></i></a>
+          <a href="#"><i class="bx bxl-twitter"></i></a>
+          <a href="#"><i class="bx bxl-instagram-alt"></i></a>
+          <a href="#"><i class="bx bxl-github"></i></a>
+          <a href="#"><i class="bx bxl-youtube"></i></a>
+        </div>
+        <i class='bx bx-x navClose-btn' id="navClose"></i>
+      </div>
+      <!-- language select dropdown      -->
+      <div class="language-select flex">
+        <div class="lang-displayed flex">
+          <span class="country">Eng</span>
+          <img src="./assets/images/eng.png" alt="Eng" class="flag">
+
+        </div>
+        <img src="./assets/images/dropdown.png" alt="dropdownicon" class="dropdown-icon">
+        <ul class="language-options ">
+          <li class="lang-options flex active-lang">
+            <span class="country">Eng</span>
+            <img src="./assets/images/eng.png" alt="Eng" class="flag">
+          </li>
+          <li class="lang-options flex">
+            <span class="country">Frn</span>
+            <img src="./assets/images/frnflag.png" alt="Frn" class="flag">
+          </li>
+          <li class="lang-options flex">
+            <span class="country">Grm</span>
+            <img src="./assets/images/grmflag.png" alt="Grm" class="flag">
+          </li>
+          <li class="lang-options flex">
+            <span class="country">Spn</span>
+            <img src="./assets/images/spnflag.png" alt="Spn" class="flag">
+          </li>
+          <li class="lang-options flex">
+            <span class="country">Ngn</span>
+            <img src="./assets/images/ngnflag.png" alt="Ngn" class="flag">
+          </li>
+
+        </ul>
+      </div>
+
+      <!-- sign up button  -->
+      <div class="sign-up-btn  flex">
+        <button class="button-drk">Sign Up</button>
+      </div>
+
+
+
+    </nav>
+  </header>
+
+  <main>
+    <!--///*****HOME SECTION******///// -->
+    <section class=" home" id="home">
+      <div class="home-content">
+        <img src="./assets/images/home.png" alt="" class="intro-img">
+        <div class="home-details">
+          <h2 class="home-header">Find your <br>dream home</2>
+            <h4 class="home-intro">This is where you can find a dream <br>home of your choice without stress</h4>
+        </div>
+
+        <div class="cta-content container">
+          <h4 class="cta-title">
+            Search the price you are looking for here
+          </h4>
+          <div class="cta-inputs">
+            <div class="cta-input ">
+              <input type="text" name="location" id="location" placeholder="Location">
+              <img src="./assets/images/map.png" alt="pin">
+            </div>
+            <div class="cta-input flex">
+              <input type="text" name="type" id="type" placeholder="Type">
+              <img src="./assets/images/homeicon.png" alt="pin">
+            </div>
+            <div class="cta-input flex">
+              <input type="number" name="price" id="price" placeholder="Price">
+              <img src="./assets/images/dollar.png" alt="pin">
+            </div>
+            <div class="cta-btn"> <button class="button-drk">Search Now</button></div>
+          </div>
+
+        </div>
+      </div>
+      </div>
+    </section>
+
+    <!--///*****AWARDS SECTION******///// -->
+    <section class="section awards">
+      <div class="awards-content container flex">
+        <div class="awards-wrapper">
+          <div class="award-content flex ">
+            <img src="./assets/images/houseicon.png" alt="houseicon" class="award-icon">
+            <h3 class="award-amount">
+              2100+
+            </h3>
+            <span class="award-title">
+              Premium Houses
+            </span>
+          </div>
+          <div class="award-content flex ">
+            <img src="./assets/images/trophyicon.png" alt="houseicon" class="award-icon">
+            <h3 class="award-amount">
+              2000+
+            </h3>
+            <span class="award-title">
+              Happy Customers
+            </span>
+          </div>
+          <div class="award-content flex ">
+            <img src="./assets/images/trophyicon.png" alt="houseicon" class="award-icon">
+            <h3 class="award-amount">
+              50+
+            </h3>
+            <span class="award-title">
+              Awards
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--///*****ABOUT SECTION******///// -->
+    <section class="section about" id="about">
+      <div class="about-content container">
+        <h3 class="popular"> Popular</h3>
+        <div class="popular-residence-container flex">
+          <h2 class="popular-residence">Our Popular Residence</h2>
+          <div class="explore flex">
+            <span class="explore">Explore All</span>
+            <i class='bx bx-chevrons-right right-icon'></i>
+          </div>
+        </div>
+
+        <div class="popular-grid ">
+          <div class="popular-card flex mc1">
+            <div class="popular-img">
+              <img src="./assets/images/house1.png" alt="house1">
+            </div>
+            <div class="popular-card-details">
+              <div class="card-location flex">
+                <img src="./assets/images/map.png" alt="map">
+                <span class="card-adress">Aguda, Surulere Lagos</span>
+              </div>
+              <div class="card-features flex">
+                <div class="feature flex">
+                  <img src="./assets/images/bed.png" alt="bed">
+                  <span>4 Bed</span>
+                </div>
+                <div class="feature-2">
+                  <img src="./assets/images/check.png" alt="bed">
+                  <span>10 x 10</span>
+                </div>
+                <div class="feature-2">
+                  <img src="./assets/images/check.png" alt="bed">
+                  <span>2000m <sup>2</sup> </span>
+                </div>
+              </div>
+              <div class="price flex">
+                <button class="button-drk">Buy Now</button>
+                <div class="price-amt flex">
+                  <img src="./assets/images/naira.png" alt="">
+                  <span>750,000.00 </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="popular-card flex mc2">
+            <div class="popular-img">
+              <img src="./assets/images/house2.png" alt="house1">
+            </div>
+            <div class="popular-card-details">
+              <div class="card-location flex">
+                <img src="./assets/images/map.png" alt="map">
+                <span class="card-adress">Chisco, Lekki Lagos</span>
+              </div>
+              <div class="card-features flex">
+                <div class="feature flex">
+                  <img src="./assets/images/bed.png" alt="bed">
+                  <span>4 Bed</span>
+                </div>
+                <div class="feature-2">
+                  <img src="./assets/images/check.png" alt="bed">
+                  <span>10 x 10</span>
+                </div>
+                <div class="feature-2">
+                  <img src="./assets/images/check.png" alt="bed">
+                  <span>2000m <sup>2</sup> </span>
+                </div>
+              </div>
+              <div class="price flex">
+                <button class="button-drk">Buy Now</button>
+                <div class="price-amt flex">
+                  <img src="./assets/images/naira.png" alt="">
+                  <span>750,000.00 </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="popular-card flex mc3">
+            <div class="popular-img">
+              <img src="./assets/images/house5.png" alt="house1">
+            </div>
+            <div class="popular-card-details">
+              <div class="card-location flex">
+                <img src="./assets/images/map.png" alt="map">
+                <span class="card-adress">Akoka, Yaba Lagos</span>
+              </div>
+              <div class="card-features flex">
+                <div class="feature flex">
+                  <img src="./assets/images/bed.png" alt="bed">
+                  <span>4 Bed</span>
+                </div>
+                <div class="feature-2">
+                  <img src="./assets/images/check.png" alt="bed">
+                  <span>10 x 10</span>
+                </div>
+                <div class="feature-2">
+                  <img src="./assets/images/check.png" alt="bed">
+                  <span>2000m <sup>2</sup> </span>
+                </div>
+              </div>
+              <div class="price flex">
+                <button class="button-drk">Buy Now</button>
+                <div class="price-amt flex">
+                  <img src="./assets/images/naira.png" alt="">
+                  <span>750,000.00 </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="popular-card flex mc1">
+            <div class="popular-img">
+              <img src="./assets/images/house4.png" alt="house1">
+            </div>
+            <div class="popular-card-details">
+              <div class="card-location flex">
+                <img src="./assets/images/map.png" alt="map">
+                <span class="card-adress">Aguda, Surulere Lagos</span>
+              </div>
+              <div class="card-features flex">
+                <div class="feature flex">
+                  <img src="./assets/images/bed.png" alt="bed">
+                  <span>4 Bed</span>
+                </div>
+                <div class="feature-2">
+                  <img src="./assets/images/check.png" alt="bed">
+                  <span>10 x 10</span>
+                </div>
+                <div class="feature-2">
+                  <img src="./assets/images/check.png" alt="bed">
+                  <span>2000m <sup>2</sup> </span>
+                </div>
+              </div>
+              <div class="price flex">
+                <button class="button-drk">Buy Now</button>
+                <div class="price-amt flex">
+                  <img src="./assets/images/naira.png" alt="">
+                  <span>750,000.00 </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="popular-card flex mc4">
+            <div class="popular-img">
+              <img src="./assets/images/house6.png" alt="house1">
+            </div>
+            <div class="popular-card-details">
+              <div class="card-location flex">
+                <img src="./assets/images/map.png" alt="map">
+                <span class="card-adress">Aguda, Surulere Lagos</span>
+              </div>
+              <div class="card-features flex">
+                <div class="feature flex">
+                  <img src="./assets/images/bed.png" alt="bed">
+                  <span>4 Bed</span>
+                </div>
+                <div class="feature-2">
+                  <img src="./assets/images/check.png" alt="bed">
+                  <span>10 x 10</span>
+                </div>
+                <div class="feature-2">
+                  <img src="./assets/images/check.png" alt="bed">
+                  <span>2000m <sup>2</sup> </span>
+                </div>
+              </div>
+              <div class="price flex">
+                <button class="button-drk">Buy Now</button>
+                <div class="price-amt flex">
+                  <img src="./assets/images/naira.png" alt="">
+                  <span>750,000.00 </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="popular-card flex mc3">
+            <div class="popular-img">
+              <img src="./assets/images/house3.png" alt="house1">
+            </div>
+            <div class="popular-card-details">
+              <div class="card-location flex">
+                <img src="./assets/images/map.png" alt="map">
+                <span class="card-adress">Aguda, Surulere Lagos</span>
+              </div>
+              <div class="card-features flex">
+                <div class="feature flex">
+                  <img src="./assets/images/bed.png" alt="bed">
+                  <span>4 Bed</span>
+                </div>
+                <div class="feature-2">
+                  <img src="./assets/images/check.png" alt="bed">
+                  <span>10 x 10</span>
+                </div>
+                <div class="feature-2">
+                  <img src="./assets/images/check.png" alt="bed">
+                  <span>2000m <sup>2</sup> </span>
+                </div>
+              </div>
+              <div class="price flex">
+                <button class="button-drk">Buy Now</button>
+                <div class="price-amt flex">
+                  <img src="./assets/images/naira.png" alt="">
+                  <span>750,000.00 </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- mobile slide  -->
+        <div class="swiper mySwiper ">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide flex mc1">
+              <div class="popular-card flex">
+                <div class="popular-img">
+                  <img src="./assets/images/house1.png" alt="house1">
+                </div>
+                <div class="popular-card-details">
+                  <div class="card-location flex">
+                    <img src="./assets/images/map.png" alt="map">
+                    <span class="card-adress">Aguda, Surulere Lagos</span>
+                  </div>
+                  <div class="card-features flex">
+                    <div class="feature flex">
+                      <img src="./assets/images/bed.png" alt="bed">
+                      <span>4 Bed</span>
+                    </div>
+                    <div class="feature-2">
+                      <img src="./assets/images/check.png" alt="bed">
+                      <span>10 x 10</span>
+                    </div>
+                    <div class="feature-2">
+                      <img src="./assets/images/check.png" alt="bed">
+                      <span>2000m <sup>2</sup> </span>
+                    </div>
+                  </div>
+                  <div class="price flex">
+                    <button class="button-drk">Buy Now</button>
+                    <div class="price-amt flex">
+                      <img src="./assets/images/naira.png" alt="">
+                      <span>750,000.00 </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide flex ">
+              <div class="popular-card flex">
+                <div class="popular-img">
+                  <img src="./assets/images/house2.png" alt="house1">
+                </div>
+                <div class="popular-card-details">
+                  <div class="card-location flex">
+                    <img src="./assets/images/map.png" alt="map">
+                    <span class="card-adress">Chisco, Lekki Lagos</span>
+                  </div>
+                  <div class="card-features flex">
+                    <div class="feature flex">
+                      <img src="./assets/images/bed.png" alt="bed">
+                      <span>4 Bed</span>
+                    </div>
+                    <div class="feature-2">
+                      <img src="./assets/images/check.png" alt="bed">
+                      <span>10 x 10</span>
+                    </div>
+                    <div class="feature-2">
+                      <img src="./assets/images/check.png" alt="bed">
+                      <span>2000m <sup>2</sup> </span>
+                    </div>
+                  </div>
+                  <div class="price flex">
+                    <button class="button-drk">Buy Now</button>
+                    <div class="price-amt flex">
+                      <img src="./assets/images/naira.png" alt="">
+                      <span>750,000.00 </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide flex ">
+              <div class="popular-card flex">
+                <div class="popular-img">
+                  <img src="./assets/images/house5.png" alt="house1">
+                </div>
+                <div class="popular-card-details">
+                  <div class="card-location flex">
+                    <img src="./assets/images/map.png" alt="map">
+                    <span class="card-adress">Akoka, Yaba Lagos</span>
+                  </div>
+                  <div class="card-features flex">
+                    <div class="feature flex">
+                      <img src="./assets/images/bed.png" alt="bed">
+                      <span>4 Bed</span>
+                    </div>
+                    <div class="feature-2">
+                      <img src="./assets/images/check.png" alt="bed">
+                      <span>10 x 10</span>
+                    </div>
+                    <div class="feature-2">
+                      <img src="./assets/images/check.png" alt="bed">
+                      <span>2000m <sup>2</sup> </span>
+                    </div>
+                  </div>
+                  <div class="price flex">
+                    <button class="button-drk">Buy Now</button>
+                    <div class="price-amt flex">
+                      <img src="./assets/images/naira.png" alt="">
+                      <span>750,000.00 </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide flex ">
+              <div class="popular-card flex">
+                <div class="popular-img">
+                  <img src="./assets/images/house4.png" alt="house1">
+                </div>
+                <div class="popular-card-details">
+                  <div class="card-location flex">
+                    <img src="./assets/images/map.png" alt="map">
+                    <span class="card-adress">Aguda, Surulere Lagos</span>
+                  </div>
+                  <div class="card-features flex">
+                    <div class="feature flex">
+                      <img src="./assets/images/bed.png" alt="bed">
+                      <span>4 Bed</span>
+                    </div>
+                    <div class="feature-2">
+                      <img src="./assets/images/check.png" alt="bed">
+                      <span>10 x 10</span>
+                    </div>
+                    <div class="feature-2">
+                      <img src="./assets/images/check.png" alt="bed">
+                      <span>2000m <sup>2</sup> </span>
+                    </div>
+                  </div>
+                  <div class="price flex">
+                    <button class="button-drk">Buy Now</button>
+                    <div class="price-amt flex">
+                      <img src="./assets/images/naira.png" alt="">
+                      <span>750,000.00 </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide flex ">
+              <div class="popular-card flex">
+                <div class="popular-img">
+                  <img src="./assets/images/house6.png" alt="house1">
+                </div>
+                <div class="popular-card-details">
+                  <div class="card-location flex">
+                    <img src="./assets/images/map.png" alt="map">
+                    <span class="card-adress">Aguda, Surulere Lagos</span>
+                  </div>
+                  <div class="card-features flex">
+                    <div class="feature flex">
+                      <img src="./assets/images/bed.png" alt="bed">
+                      <span>4 Bed</span>
+                    </div>
+                    <div class="feature-2">
+                      <img src="./assets/images/check.png" alt="bed">
+                      <span>10 x 10</span>
+                    </div>
+                    <div class="feature-2">
+                      <img src="./assets/images/check.png" alt="bed">
+                      <span>2000m <sup>2</sup> </span>
+                    </div>
+                  </div>
+                  <div class="price flex">
+                    <button class="button-drk">Buy Now</button>
+                    <div class="price-amt flex">
+                      <img src="./assets/images/naira.png" alt="">
+                      <span>750,000.00 </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide flex ">
+              <div class="popular-card flex">
+                <div class="popular-img">
+                  <img src="./assets/images/house3.png" alt="house1">
+                </div>
+                <div class="popular-card-details">
+                  <div class="card-location flex">
+                    <img src="./assets/images/map.png" alt="map">
+                    <span class="card-adress">Aguda, Surulere Lagos</span>
+                  </div>
+                  <div class="card-features flex">
+                    <div class="feature flex">
+                      <img src="./assets/images/bed.png" alt="bed">
+                      <span>4 Bed</span>
+                    </div>
+                    <div class="feature-2">
+                      <img src="./assets/images/check.png" alt="bed">
+                      <span>10 x 10</span>
+                    </div>
+                    <div class="feature-2">
+                      <img src="./assets/images/check.png" alt="bed">
+                      <span>2000m <sup>2</sup> </span>
+                    </div>
+                  </div>
+                  <div class="price flex">
+                    <button class="button-drk">Buy Now</button>
+                    <div class="price-amt flex">
+                      <img src="./assets/images/naira.png" alt="">
+                      <span>750,000.00 </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-next  swiper-nav-btn"></div>
+          <div class="swiper-button-prev  swiper-nav-btn"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+
+    <!--///*****MENU SECTION******///// -->
+    <section class="section menu" id="menu">
+      <div class="menu-content container">
+        <div class="menu-heading">
+          <h2>Why Choose Us</h2>
+          <p>Our goal is at the heart of all that we do. We make our clients happiness our sole priority.</p>
+        </div>
+
+        <div class="menu-body">
+          <div class="menu-card flex mc1">
+            <div class="menu-top flex">
+              <img src="./assets/images/insurance-icon.png" alt="insurance-icon">
+              <h4>Insurance</h4>
+            </div>
+            <div class="menu-text">
+              <p> This is where you can find a dream home of your choice without stThis is where you can find a dream
+                home of your choice without stressresThis is where you
+              </p>
+            </div>
+          </div>
+          <div class="menu-card flex mc2">
+            <div class="menu-top flex">
+              <img src="./assets/images/insurance-icon.png" alt="insurance-icon">
+              <h4>Insurance</h4>
+            </div>
+            <div class="menu-text">
+              <p> This is where you can find a dream home of your choice without stThis is where you can find a dream
+                home of your choice without stressresThis is where you
+              </p>
+            </div>
+          </div>
+          <div class="menu-card flex mc3">
+            <div class="menu-top flex">
+              <img src="./assets/images/callservice-icon.png" alt="insurance-icon">
+              <h4>24/7 customer service</h4>
+            </div>
+            <div class="menu-text">
+              <p> This is where you can find a dream home of your choice without stThis is where you can find a dream
+                home of your choice without stressresThis is where you
+              </p>
+            </div>
+          </div>
+          <div class="menu-card flex mc1">
+            <div class="menu-top flex">
+              <img src="./assets/images/insurance-icon.png" alt="insurance-icon">
+              <h4>Insurance</h4>
+            </div>
+            <div class="menu-text">
+              <p> This is where you can find a dream home of your choice without stThis is where you can find a dream
+                home of your choice without stressresThis is where you
+              </p>
+            </div>
+          </div>
+          <div class="menu-card flex mc4">
+            <div class="menu-top flex">
+              <img src="./assets/images/insurance-icon.png" alt="insurance-icon">
+              <h4>Insurance</h4>
+            </div>
+            <div class="menu-text">
+              <p> This is where you can find a dream home of your choice without stThis is where you can find a dream
+                home of your choice without stressresThis is where you
+              </p>
+            </div>
+          </div>
+          <div class="menu-card flex mc3">
+            <div class="menu-top flex">
+              <img src="./assets/images/atmicon.png" alt="insurance-icon">
+              <h4>Installments</h4>
+            </div>
+            <div class="menu-text">
+              <p> This is where you can find a dream home of your choice without stThis is where you can find a dream
+                home of your choice without stressresThis is where you
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- mobile -->
+        <div class="swiper mySwiper ">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide flex mc1">
+              <div class="menu-card flex">
+                <div class="menu-top flex">
+                  <img src="./assets/images/insurance-icon.png" alt="insurance-icon">
+                  <h4>Insurance</h4>
+                </div>
+                <div class="menu-text">
+                  <p> This is where you can find a dream home of your choice without stThis is where you can find a
+                    dream home of your choice without stressresThis is where you
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide flex">
+              <div class="menu-card flex">
+                <div class="menu-top flex">
+                  <img src="./assets/images/insurance-icon.png" alt="insurance-icon">
+                  <h4>Insurance</h4>
+                </div>
+                <div class="menu-text">
+                  <p> This is where you can find a dream home of your choice without stThis is where you can find a
+                    dream home of your choice without stressresThis is where you
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide flex ">
+              <div class="menu-card flex">
+                <div class="menu-top flex">
+                  <img src="./assets/images/callservice-icon.png" alt="insurance-icon">
+                  <h4>24/7 customer service</h4>
+                </div>
+                <div class="menu-text">
+                  <p> This is where you can find a dream home of your choice without stThis is where you can find a
+                    dream home of your choice without stressresThis is where you
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide flex ">
+              <div class="menu-card flex">
+                <div class="menu-top flex">
+                  <img src="./assets/images/insurance-icon.png" alt="insurance-icon">
+                  <h4>Insurance</h4>
+                </div>
+                <div class="menu-text">
+                  <p> This is where you can find a dream home of your choice without stThis is where you can find a
+                    dream home of your choice without stressresThis is where you
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide flex">
+              <div class="menu-card flex">
+                <div class="menu-top flex">
+                  <img src="./assets/images/insurance-icon.png" alt="insurance-icon">
+                  <h4>Insurance</h4>
+                </div>
+                <div class="menu-text">
+                  <p> This is where you can find a dream home of your choice without stThis is where you can find a
+                    dream home of your choice without stressresThis is where you
+                  </p>
+                </div>
+              </div>
+            </div>
+              <div class="swiper-slide flex mc3">
+                <div class="menu-card flex">
+                  <div class="menu-top flex">
+                    <img src="./assets/images/atmicon.png" alt="insurance-icon">
+                    <h4>Installments</h4>
+                  </div>
+                  <div class="menu-text">
+                    <p> This is where you can find a dream home of your choice without stThis is where you can find a
+                      dream home of your choice without stressresThis is where you
+                    </p>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <div class="swiper-button-next  swiper-nav-btn"></div>
+          <div class="swiper-button-prev  swiper-nav-btn"></div>
+          <div class="swiper-pagination"></div>
+
+        </div>
+    </section>
+
+    <!--///*****BRAND SECTION******///// -->
+    <section class="section brand" id="team">
+          <div class="team-content container">
+                <div class="team-heading">
+                      <h4>Our Team</h4>
+                      <h2>Meet Our Team</h2>
+                      <p>Our goal is at the heart of all that we do. We make our clients happiness our sole priority.</p>
+                </div>
+                <div class="team-cards">
+                  <div class="team-card tc1">
+                    <div class="team-image flex">
+                      <img src="./assets/images/member1.png" alt="mem1" class="mem1">                 
+                    </div>
+                    <span>Project Manager</span>
+                  </div>
+
+                  <div class="team-card tc2">
+                    <div class="team-image flex">
+                      <img src="./assets/images/member2.png" alt="mem3 " class="mem2" >                 
+                    </div>
+                    <span>Marketing Head</span>
+                  </div>
+                  <div class="team-card tc3">
+                    <div class="team-image flex">
+                      <img src="./assets/images/member3.png" alt="mem2" class="mem2" >                 
+                    </div>
+                    <span>Head Of Services</span>
+                  </div>
+                </div>
+
+                <!-- mobile slide  -->
+
+                <div class="swiper mySwiper ">
+                  <div class="swiper-wrapper">
+                         <div class="swiper-slide flex mc3">
+                          <div class="team-card">
+                            <div class="team-image flex">
+                              <img src="./assets/images/member1.png" alt="mem1" class="mem1">                 
+                            </div>
+                            <span>Project Manager</span>
+                          </div>
+                         </div>
+                         <div class="swiper-slide flex">
+                          <div class="team-card">
+                            <div class="team-image flex">
+                              <img src="./assets/images/member2.png" alt="mem3 " class="mem2" >                 
+                            </div>
+                            <span>Marketing Head</span>
+                          </div>
+                         </div>
+                         <div class="swiper-slide flex">
+                          <div class="team-card">
+                            <div class="team-image flex">
+                              <img src="./assets/images/member3.png" alt="mem2" class="mem2" >                 
+                            </div>
+                            <span>Head Of Services</span>
+                          </div>
+                         </div>
+                  </div>
+                 <div class="swiper-button-next  swiper-nav-btn"></div>
+                           <div class="swiper-button-prev  swiper-nav-btn"></div>
+                           <div class="swiper-pagination"></div>
+                </div>
+          </div>
+    </section>
+
+    <!--///*****REVIEWS SECTION******///// -->
+    <section class="section review" id="review">
+        <div class="review-content container">
+          <div class="review-heading">
+            <h4>Testimonials</h4>
+            <h2>What Clients Say</h2>
+            <p>Our goal is at the heart of all that we do. We make our clients happiness our sole priority.</p>
+      </div>
+
+      <div class="review-body">
+        <div class="menu-card flex mc1">
+          <div class="menu-top flex">
+<div class="header-left flex">
+              <img src="./assets/images/profile.png" alt="insurance-icon">
+           <div class="rev-name">
+            <h4>Kim Davids</h4>
+            <span>Banker</span>
+           </div>
+          </div>
+
+           <img src="./assets/images/stars.png" alt="5star" class="fivestar">
+          </div>
+          <div class="menu-text">
+            <p> This is where you can find a dream home of your choice without stThis is where you can find a dream
+              home of your choice without stressresThis is where you
+            </p>
+          </div>
+        </div>
+        <div class="menu-card flex mc2">
+          <div class="menu-top flex">
+<div class="header-left flex">
+              <img src="./assets/images/profile.png" alt="insurance-icon">
+           <div class="rev-name">
+            <h4>Kim Davids</h4>
+            <span>Banker</span>
+           </div>
+          </div>
+
+           <img src="./assets/images/stars.png" alt="5star" class="fivestar">
+          </div>
+          <div class="menu-text">
+            <p> This is where you can find a dream home of your choice without stThis is where you can find a dream
+              home of your choice without stressresThis is where you
+            </p>
+          </div>
+        </div>
+        <div class="menu-card flex  mc3">
+          <div class="menu-top flex">
+<div class="header-left flex">
+              <img src="./assets/images/profile.png" alt="insurance-icon">
+           <div class="rev-name">
+            <h4>Kim Davids</h4>
+            <span>Banker</span>
+           </div>
+          </div>
+
+           <img src="./assets/images/stars.png" alt="5star" class="fivestar">
+          </div>
+          <div class="menu-text">
+            <p> This is where you can find a dream home of your choice without stThis is where you can find a dream
+              home of your choice without stressresThis is where you
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="review-footer flex">
+            <h1>Ready to choose your<br> dream home?</h1>
+            <button class="button-white started-btn">Get Started</button>
+      </div>
+        </div>
+    </section>
+
+
+    <!--///*****FOOTER SECTION******///// -->
+    <footer class="section footer" id="footer">
+          <div class="footer-content container">
+                <div class="footer-main flex">
+                        <div class="footer-top">
+                              <div class="top-left flex">
+                                  <img src="./assets/images/logo2.png" alt="">
+                                  <p>Our goal is at <br>the heart of all that we do.</p>
+                                  <div class="footer-media-icons flex">
+                                      <a href="#"><i class="bx bxl-facebook"></i></a>
+                                      <a href="#"><i class="bx bxl-twitter"></i></a>
+                                      <a href="#"><i class="bx bxl-instagram-alt"></i></a>
+                                  </div>
+                              </div>
+                              <div class="top-right">
+                                
+                
+                                  <div class="footer-pages flex">
+                                      <h3 class="facility-title">Pages</h3>
+                                      <span class="facility-text"><a href="#">Home</a></span>
+                                      <span class="facility-text"><a href="#">Features</a></span>
+                                      <span class="facility-text"><a href="#">About Us</a></span>
+                                      <span class="facility-text"><a href="#">Agents</a></span>
+                                  </div>
+                                  <div class="footer-support flex">
+                                      <h3 class="product-title">Support</h3>
+                                      <span class="facility-text"><a href="#">FAQs</a></span>
+                                      <span class="facility-text"><a href="#">Support Center</a></span>
+                                      <span class="facility-text"><a href="#">Sequirity</a></span>
+                                  </div>
+                                  <div class="footer-support flex">
+                                      <h3 class="support-title">Contact Us</h3>
+                                      <span class="facility-text"> +234-701-449-8006</span>
+                                      <span class="facility-text"> deji2joel@gmail.com</span>
+                                      <span class="facility-text">23 Ali express Lagos, Nigeria</span>
+                                         </div>
+                 
+                
+                              </div>
+                        </div>
+                        <div class="footer-bottom">
+                          <span class="footer-copyright">      &#169; JayTech. All rigths reserved</span>
+     
+                        </div>
+                </div>
+          </div>
+    </footer>
+
+    <!-- SCROLL UP -->
+    <!-- SCROLL UP -->
+    <div class="scrollup-bar">
+      <a href="#home"> <img src="./assets/images/icons8-slide-up-48.png" class="  bactToTop-icon" alt="top"/></a>
+    </div>
+
+  </main>
+
+  <!-- Scroll reveal -->
+  <!-- <script src="./js/scrollreveal.js"></script> -->
+
+  <!-- Swiper JS -->
+  <script src="./js/swiper-bundle.min.js"></script>
+
+
+  <!-- JAVASCRIPT -->
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
