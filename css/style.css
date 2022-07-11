@@ -355,7 +355,7 @@ color: var(--text-color);
     position: relative;
     border-radius: 1rem;
     padding: 0 2rem;
-    border: 2px solid var(--blue-grey);
+    border: 2px solid var(--text-grey);
     color: #aba9a9;
     /* color: red; */
 }
@@ -1107,6 +1107,10 @@ img.mem2 {
         flex-direction: column-reverse;
         row-gap: 0.5rem;
     }
+        .cta-content{
+                    bottom: -24%;
+           
+                }
 
     .popular-card.flex, .popular-img, .popular-card-details {
         width: 207px;

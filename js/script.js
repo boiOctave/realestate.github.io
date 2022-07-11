@@ -131,12 +131,12 @@ const langSelct = document.querySelector('.language-select'),
 
 const sr = ScrollReveal({
   origin: 'top',
-  distance:'30px' ,
+  distance:'20px' ,
   duration: 2000,
   delay: 100,
 })
 
 sr.reveal('.review-heading h2, .team-heading h2, .menu-heading h2 , .awards-wrapper,.review-footer h1 , .tc2, .mc2, .review-heading h2, .review-heading p, .review-heading h4',{interval:16,reset: true})
-sr.reveal('.about-details,.cta-content, .home-intro, .menu-table , .tc3, .mc3', {origin:'right', reset: true})
+sr.reveal('.about-details, .home-intro, .menu-table , .tc3, .mc3', {origin:'right', reset: true})
 sr.reveal('.about-imagecontent, .menu-items, .tc1, .home-header , .mc1', {origin:'left' ,reset: true})
-sr.reveal('.menu-body, .footer-main , .mc4', {origin:'bottom' ,reset: true})
+sr.reveal('.menu-body, .footer-main , .mc4,.cta-content', {origin:'bottom' ,reset: true})
