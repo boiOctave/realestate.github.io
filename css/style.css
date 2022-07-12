@@ -946,6 +946,7 @@ img.mem2 {
     .navOpen-btn{
         font-size:          2.5rem;
         cursor:             pointer;
+        flex: 0.25;
     }
     .navClose-btn{
         position:           absolute; 
